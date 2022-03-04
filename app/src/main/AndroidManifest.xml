@@ -20,6 +20,7 @@
             android:exported="true"
             android:launchMode="singleInstance"
             android:label="@string/app_name"
+            android:configChanges="screenSize|orientation|keyboardHidden|keyboard|navigation|screenLayout|fontScale"
             android:theme="@style/Theme.Tension">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
