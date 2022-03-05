@@ -1,4 +1,4 @@
-package me.rerere.tension.datasource
+package me.rerere.tension.provider
 
 enum class Category {
     GAME,

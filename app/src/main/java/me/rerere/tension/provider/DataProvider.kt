@@ -1,8 +1,10 @@
-package me.rerere.tension.datasource
+package me.rerere.tension.provider
 
 import androidx.compose.runtime.Composable
 
-interface IDataSource {
+interface DataProvider {
+    fun getDisplayName(): String
+
     fun getCategory(): Category
 
     @Composable
